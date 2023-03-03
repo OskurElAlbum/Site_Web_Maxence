@@ -1,0 +1,26 @@
+
+.container{
+    
+    display: flex;
+    
+    height: 200px;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.container div {
+    width: 100;
+    border: solid black;
+}
+.container div:nth-child(1){
+    height: 100px;
+    order:4;
+}
+
+.container div:nth-child(2){
+    height: 100px;
+}
+
+.container div:nth-child(3){
+    height: 100px;
+}
