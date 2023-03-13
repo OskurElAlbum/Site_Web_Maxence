@@ -12,6 +12,12 @@ body{
     background-color: #1e1e1e;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
 .TaskBar{
     top :0;
     right: 0;
@@ -21,7 +27,7 @@ body{
     position: sticky;
     overflow: hidden;
     background-color: #1e1e1e;
-    opacity:0.95;
+    opacity: 0.9;;
 }
 
 .TaskBar nav ul{
@@ -69,6 +75,10 @@ body{
     transform:translate(10px);
 }
 
+.bloc img{
+  display: block;
+  margin: auto;
+}
 .blocform{
     background-color:#202026;
     text-align: left;
@@ -109,12 +119,24 @@ h1{
     border-radius: 5px;
 }
 
+.lien a{
+    color:#e7e7e7;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.lien a:hover{
+    color: #a1a1a5;
+}
+
 .cursus{
     display: flex;
     text-align: center;
 }
+
 .important{
     color: #0088EF;
+    text-decoration: none;
 }
 
 hr{
@@ -125,7 +147,7 @@ hr{
 .formation{
     color: #C2C2C2 ;
 }
-.lieu{
+.cadre{
     font-style: italic;
     color: #0088EF;
 }

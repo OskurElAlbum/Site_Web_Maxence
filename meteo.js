@@ -106,13 +106,6 @@ var Pressionctx = new Chart(document.getElementById('PressionChart').getContext(
     // Configuration options go here
     options: {
       responsive: true,
-      scales: {
-        yAxes: [{
-          ticks: {
-            beginAtZero: false
-          }
-        }]
-      },
     }
   });
 
